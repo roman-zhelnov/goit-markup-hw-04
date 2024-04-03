@@ -132,6 +132,9 @@ img {
     padding-top: 188px;
     padding-bottom: 188px;
     background-color: #2e2f42;
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .hero-title {
@@ -255,8 +258,38 @@ img {
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: center;
+        margin-bottom: 8px;
         color: #434455;
         text-align: center;
+}
+
+.icon-list {
+    display: flex;
+    gap: 24px;
+    padding-left: 16px;
+}
+
+.icon-item {
+    width: 40px;
+    height: 40px;
+}
+
+.icon-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-icon {
+    fill:#fff;
+}
+
+.icon-link:hover {
+    background-color: #31D0AA;
 }
 
 /*------------------------------- PORTFOLIO -----------------------*/
@@ -345,4 +378,14 @@ img {
         letter-spacing: 0.02em;
         color: #f4f4fd;
         max-width: 264px;
+}
+
+.social-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+        margin-bottom: 16px;
 }
