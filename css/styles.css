@@ -284,11 +284,11 @@ img {
     align-items: center;
 }
 
-.icon-icon {
+.icon-soc {
     fill:#fff;
 }
 
-.icon-link:hover {
+.icon-link:hover, .icon-link:focus {
     background-color: #31D0AA;
 }
 
@@ -380,6 +380,16 @@ img {
         max-width: 264px;
 }
 
+.footer-wrap{
+position: relative;
+}
+
+.social {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 .social-text{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -388,4 +398,9 @@ img {
         letter-spacing: 0.02em;
         color: #fff;
         margin-bottom: 16px;
+        display: flex;
+}
+
+.icon-list-footer {
+    padding-left: 0;
 }
