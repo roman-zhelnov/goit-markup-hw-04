@@ -102,6 +102,8 @@ img {
     color: #404bbf;
 }
 
+
+
 .header-contacts {
     margin: auto;
     margin-right: 0;
@@ -129,6 +131,9 @@ img {
 /*------------ HERO ------------- */
 
 .hero {
+    width: 1440px;
+    height: 600px;
+    margin: 0 auto;
     padding-top: 188px;
     padding-bottom: 188px;
     background-color: #2e2f42;
@@ -355,6 +360,18 @@ img {
     padding-bottom: 100px;
 }
 
+.container-footer {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    align-items: baseline;
+
+}
+
+.container-footer-logo{
+    margin-right: 120px;
+}
+
 .footer-logo {
         font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -380,14 +397,8 @@ img {
         max-width: 264px;
 }
 
-.footer-wrap{
-position: relative;
-}
 
 .social {
-    position: absolute;
-    top: 0;
-    right: 0;
 }
 
 .social-text{
